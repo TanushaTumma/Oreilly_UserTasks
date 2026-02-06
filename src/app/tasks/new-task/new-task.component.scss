@@ -1,0 +1,108 @@
+/* Full screen overlay */
+.backdrop {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  dialog {
+    width: 90%;
+    max-width: 30rem;
+    background-color: #433352;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    padding: 1rem;
+    top: 5rem;
+  }
+  
+  /* Title */
+  .title {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  
+  /* Form groups */
+  .group {
+    margin-bottom: 18px;
+  }
+  
+  .group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #cfc7e6;
+  }
+  
+  /* Inputs */
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px 12px;
+    background: #d6c9ea;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  /* Date input with icon */
+  .date-input {
+    position: relative;
+  }
+  
+  .date-input input {
+    padding-right: 40px;
+  }
+  
+  .calendar-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 16px;
+    color: #3c2a5f;
+  }
+  
+  /* Buttons area */
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 14px;
+    margin-top: 22px;
+  }
+  
+  /* Cancel button */
+  .cancel-btn {
+    background: transparent;
+    color: #cfc7e6;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  /* Create button */
+  .create-btn {
+    background: #7a4bc9;
+    color: #fff;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .create-btn:hover {
+    background: #6a3db5;
+  }
+  
